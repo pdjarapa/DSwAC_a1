@@ -1,0 +1,7 @@
+Comprender contenido de Protocolo y preparación del ambiente de trabajo.
+Preparar ambiente de trabajo web local.
+Instalar el servidor web Apache, base de datos MariaDB y lenguaje Php. Puede usar utilitarios que faciliten su uso, tales como LAMP, MAMP, XAMPP.
+Acceder al código fuente compartido por el profesor para su revisión ubicado en Github, descargar el código fuente en la siguiente dirección: https://github.com/rgfigueroa/DSwAC
+Recuperar datos de la Petición Http en Lenguaje Php.
+Leer el contenido del Protocolo HTTP y aprender a usar sus encabezados.
+Identifique los diversos header, status code, número de peticiones, tipos de contenido o MIME types (text/plain, text/html,  text/css, entre otros),  usando la herramienta de desarrollador que poseen los navegadores web Google Chrome o Firefox.

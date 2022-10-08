@@ -1,0 +1,43 @@
+Modificar la página principal del sitio web en Wordpress para visualizar la información de Headers HTTP básicos. 
+Editar en php la página web principal del sitio web para visualizar la siguiente información de los Headers HTTP:
+Navegador web utilizado. 
+Status code o código de la petición realizada.
+Sistema operativo utilizado
+Referencia o http referer
+Servidor web usado
+Número de Puerto del servidor 
+Usar cualquier de las siguiente dos secciones en PHP para obtener la información de los Headers o utilizar su código deseado.
+Mediante strpos
+var_dump(http_response_code());
+$navegador = $_SERVER['HTTP_USER_AGENT'];
+echo ("<br> Navegador Completo:". ($navegador));
+function get_browser_name($navegador)
+       {
+         if (strpos($navegador, 'Opera')) return 'Opera';
+         elseif (strpos($navegador, 'Edge')) return 'Edge';
+         elseif (strpos($navegador, 'Chrome')) return 'Chrome';
+         elseif (strpos($navegador, 'Safari')) return 'Safari';
+         elseif (strpos($navegador, 'Firefox')) return 'Firefox';
+         elseif (strpos($navegador, 'MSIE')) return 'Internet Explorer'; 
+         return 'Other';
+       }
+  print ("<br> Navegador:");
+  echo (get_browser_name($navegador). "<br>");
+Mediante preg_match
+<?php
+$useragent = $_SERVER['HTTP_USER_AGENT'];
+$otros = '';
+if (preg_match("/Edg/i", $useragent)){
+    echo "Estás navegando desde <b>EDGE</b>";
+  }elseif (preg_match("/KHTML like Gecko/i", $useragent) || preg_match("/Safari/i", $useragent)){
+    echo "Estás navegando desde <b>CHROME</b>";
+}else if (preg_match("/20100101/i", $useragent)) {
+    echo "Estás navegando desde <b>FIREFOX</b>";
+  }elseif (preg_match("/OPR/i", $useragent)) {
+    echo "Estás navegando desde <b>OPERA</b>";
+  }elseif (preg_match("/Mobile/i", $useragent)) {
+    echo "Estás navegando desde <b>SAFAR</b>I";
+  }else {
+    echo "Estás navegando desde <b>OTRO NAVEGADOR</b>";
+  }
+?>

@@ -1,0 +1,43 @@
+Uso de encabezados Http o Headers HTTP con lenguaje de programación PHP.
+En un archivo php agregar el siguiente código para visualizar los diversos HTTP Headers, puede usar el archivo procesar.php. Poner atención en código resaltado en negrita que se agregó.
+ 
+<?php
+       print_r($_REQUEST);
+       print "<p>Su nombre es $_REQUEST[Usuario]</p>\n";
+       print("<br>La clave ingresada es". $_REQUEST['Clave']);
+       print("<h1>La Edad es ". $_REQUEST['Edad']);
+       print("</h1>");
+       print("<br><br>Fin del ejercio inicial");
+       // $mivariable = $_REQUEST['HTTP_USER_AGENT'];
+       print("<br><h3>Se imprime los Headers: </h3><br>");
+       var_dump($_SERVER);
+       print("<br><h3>Se usa la función getallheaders: </h3><br>");
+?>
+<?php
+       foreach (getallheaders() as $name => $value) {
+           echo "$name: $value <br>";
+       }
+?> 
+<h3>Demostrando Header Http con Lenguaje Php</h3>
+<?php
+       $header = apache_request_headers();
+       foreach ($header as $headers => $value) {
+          echo "$headers: $value <br/>\n";
+          //echo"<marquee>Este texto se mueve de derecha a izquierda</marquee>";
+       }
+?>
+ 
+Visualizar los diversos encabezados Http y consultar que información técnica hace referencia ayudado de sus fuentes bibliográficas para su compresión.
+
+ 
+Modifique para visualizar el contenido del servidor y el valor del header User Agent Http:
+ 
+print("<br><br>");
+echo "<b>El servidor es:</b> {$_SERVER['SERVER_NAME']}<br>"; 
+echo "<b>El valor de USER AGENT es:</b> {$_SERVER['HTTP_USER_AGENT']}<br>"; 
+print("<br>");
+Su código quedará así:
+ 
+
+ 
+Visualizar el resultado, se tendrá:

@@ -1,0 +1,6 @@
+Uso de archivos XML con PHP. 
+Revisar el código del archivo denominado Estudiantes.xml y el archivo LeerXMLFile.php y comprenda su funcionamiento.
+Modificar o crear un nuevo archivo XML con información del estudiante para que en la parte superior de la página web del sitio de WordPress se visualice la información personal del estudiante que realizó la tarea proveniente desde el archivo XML, contendrá datos como: nombre, asignatura, ciudad, programa de maestría, fecha de presentación del trabajo, título de tercer nivel del autor, entre otra información deseada.
+La información personal del estudiante se visualizará ordenada en una tabla html sencilla.
+Al final se visualizará el sitio WordPress en la página principal con la información de headers http e información personal en una tabla html del autor de la tarea.
+Se valorará positivamente a aquellos estudiantes que podrán demostrar el funcionamiento de su solución en otro servidor web diferente como Nginx.

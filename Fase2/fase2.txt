@@ -1,0 +1,56 @@
+Métodos HTTP con lenguaje de programación PHP.
+Ejecutar en Apache un ejemplo en Lenguaje Php llamado MiEjemplo.php para aprender su funcionamiento.  
+ 
+<?php 
+   print("Esto es lenguaje PHP");
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mi pagina en PHP</title>
+</head>
+<body>
+  <form action="procesar.php" method="get">
+         <input type="text" name="Usuario" placeholder="Ingresa User">
+         <input type="text" name="Clave" placeholder="Ingresar Clave">      
+         <input type="text" name="Edad" placeholder="Ingresar Edad">
+         <input type="submit" name="Enviar" value="Guardar">
+  </form>
+Mi primer ejemplo PHP de Hoy.
+</body>
+</html>
+ 
+Guardar el archivo Php, visualice y realice la petición en Apache usando su navegador, visualizará:
+ 
+Luego, procesar los datos de la petición o variable $REQUEST, en un nuevo archivo denominado procesar.php
+ 
+<?php
+       print_r($_REQUEST);
+       print "<p>Su nombre es $_REQUEST[Usuario]</p>\n";
+       print("<br>La clave es". $_REQUEST['Clave']);
+       print("<h1>La clave es". $_REQUEST['Edad']);
+       print("<h1>");
+?>
+ 
+Se visualizará la siguiente pantalla, observe que sus datos ingresados en la página web viajan en texto plano en la URL de la petición mediante método GET.
+ 
+ 
+Observe como sus datos ingresados en el formulario web viajan al servidor apache desde el cliente (navegador), mediante la petición POST y GET. Ahora cambie el atributo a POST en el atributo del method del form: 
+ 
+<form action="procesar.php" method="post">
+ 
+Visualice la respuesta en su navegador web. Se observará que con el método post la URL no contiene la información ingresada en el envió de la petición mientras que con la petición get, la información es visible en la URL y viaje en la petición en texto plano.
+ 
+Use cookies para agregar a su sitio web elaborado, agregar el siguiente código:
+<?php
+       setcookie("CookieDosDSwAC","roberth@ejemplo.com", time()+1);
+       if(count($_COOKIE)>0)
+       {
+              print ("<br>No puedo almacenar cookies porque ya existe");
+       }
+       else{
+              print ("<br>Se almacena la cookie");
+       }
+?>
+Agregar mayor código php para verificar su funcionamiento y comprender su sintaxis. Adicional puede ingrese código Html como se dará cuenta.
