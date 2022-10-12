@@ -4,34 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSwAC-Fase 01</title>
+    <title>Wordpress</title>
 </head>
 <body>
     <h1>Desarrollo de Software en ambiente Cloud - DSwAC</h1>
     <img src="../pictures/logo.png">
     <p></p>
-    <h2>Trabajo Autonomo - Actividad 1</h2>
+    <h2>Trabajo Autonomo - Actividad 1 - Fase 004</h2>
     <h2>PREPARACION DE AMBIENTE DE DESARROLLO WEB</h2>
-    <p>Instalamos el servidor web Apache, base de datos MariaDB y lenguaje Php. Paquete XAMPP</p>
-    <img src="../pictures/Captura001.PNG">
+    <p>Instalación de CMS Wordpress</p>
+    <A HREF="https://es-ec.wordpress.org/download/">Wordpress</A>
     <p></p>
-    <img src="../pictures/Captura002.PNG">
+    <img src="../pictures/Captura003.PNG">
     <p></p>
     <p>Como material de apoyo nos guiamos en las sesiones o tutorias de la materia asi como tambien se lista links de referencia a temas tratados</p>
     <p></p>
-    <p>PMIS-DSwAC Sesión 1: Desarrollo de Software en ambientes Cloud 2:37:00</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QucJW_yaJEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p></p>
-    <p>PMIS-DSwAC Tutoría 1 Desarrollo de Software en ambientes Cloud</p>
+    <p>PMIS-DSwAC Tutoría 1 Desarrollo de Software en ambientes Cloud 00:21:15</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_lWEHEVrMRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p></p>
-    <A HREF="https://w3techs.com/">W3Techs - World Wide Web Technology Surveys</A>
     <p></p>
     <h1>Practica - Ejecucion del Ambiente</h1>
     <p></p>
-    <A HREF="http://localhost/dashboard/">Welcome to XAMPP</A>
+    <a title="WordPress6.0.2" href="http://localhost/wordpress6.0.2/"><img src="../pictures/csm_wordpress-hand-t_92ea6de50c.jpg" alt="WordPress6.0.2" style="height: 200px; width:400px;">/></a>
     <p></p>
     <h3><A HREF="../index.html">Index</A></h3>
-    <h3><A HREF="../Fase2/fase2.php">Fase 002</A></h3>
 </body>
 </html>

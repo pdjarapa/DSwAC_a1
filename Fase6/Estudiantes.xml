@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbp>
+    <estudiante ides="1">
+        <cedula>1103740997</cedula>
+        <nombre>Paulo</nombre>
+        <apellido>Jara</apellido>
+        <celular>0992468319</celular>
+        <direccion>Alborada</direccion>
+    </estudiante>
+    <estudiante>
+        <cedula>1101421715</cedula>
+        <nombre>Angel</nombre>
+        <apellido>Jara</apellido>
+        <celular>09993181102</celular>
+        <direccion>La Paz</direccion>
+    </estudiante>
+    <estudiante>
+        <cedula>1105702979</cedula>
+        <nombre>Selena</nombre>
+        <apellido>Gomez</apellido>
+        <celular>09980689969</celular>
+        <direccion>Pio Jaramillo</direccion>
+    </estudiante>
+    <estudiante>
+        <cedula>1105702953</cedula>
+        <nombre>Carolina</nombre>
+        <apellido>Gomez</apellido>
+        <celular>0988149129</celular>
+        <direccion>Pio Jaramillo</direccion>
+    </estudiante>
+    <estudiante>
+        <cedula>1105702961</cedula>
+        <nombre>Noelia</nombre>
+        <apellido>Jara</apellido>
+        <celular>0993571375</celular>
+        <direccion>Pio Jaramillo</direccion>
+    </estudiante>
+    <estudiante>
+        <cedula>1050669124</cedula>
+        <nombre>Pauleth</nombre>
+        <apellido>Jara</apellido>
+        <celular>0984560057</celular>
+        <direccion>Andrade Marin</direccion>
+    </estudiante>
+    <estudiante>
+        <cedula>1103900880</cedula>
+        <nombre>Rommel</nombre>
+        <apellido>Paltin</apellido>
+        <celular>0990615297</celular>
+        <direccion>Inmaculada</direccion>
+    </estudiante>
+     
+</dbp>

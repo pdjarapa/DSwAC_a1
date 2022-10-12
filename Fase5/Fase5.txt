@@ -1,13 +1,17 @@
-Modificar la página principal del sitio web en Wordpress para visualizar la información de Headers HTTP básicos. 
+Modificar la página principal del sitio web en Wordpress para visualizar la información de Headers HTTP básicos.
+
 Editar en php la página web principal del sitio web para visualizar la siguiente información de los Headers HTTP:
-Navegador web utilizado. 
+Navegador web utilizado.
+
 Status code o código de la petición realizada.
 Sistema operativo utilizado
 Referencia o http referer
 Servidor web usado
 Número de Puerto del servidor 
+
 Usar cualquier de las siguiente dos secciones en PHP para obtener la información de los Headers o utilizar su código deseado.
 Mediante strpos
+
 var_dump(http_response_code());
 $navegador = $_SERVER['HTTP_USER_AGENT'];
 echo ("<br> Navegador Completo:". ($navegador));
@@ -23,7 +27,9 @@ function get_browser_name($navegador)
        }
   print ("<br> Navegador:");
   echo (get_browser_name($navegador). "<br>");
+
 Mediante preg_match
+
 <?php
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $otros = '';

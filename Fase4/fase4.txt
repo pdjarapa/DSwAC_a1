@@ -2,4 +2,3 @@
 Descargar y ejecutar la instalación de CMS Wordpress en https://es-ec.wordpress.org/download/
 Estudiar brevemente su estructura y observar las diversas partes del código en php que contiene.
 Visitar el sitio web instalado localmente, ejemplo ejecutar el comando en su navegador deseado http://localhost/Wordpress6.0.2
- 
